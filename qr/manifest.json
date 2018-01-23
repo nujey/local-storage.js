@@ -1,0 +1,19 @@
+{  
+    "name": "我自己的二维码",  //插件的名称
+    "version": "0.1.0", //扩展的版本
+    "manifest_version":2, //这个是必须的，并且值为2
+    "description": "Chrome扩展demo2",  //扩展的基本描述
+    "browser_action": {  
+        "default_icon": "images/beasts-32.png" , //插件图标icon位置
+        "default_title": "二维码扫描", //鼠标hover是的标题
+        "default_popup": "popup.html" //单击图标popup出来的面板
+    },
+    "permissions":[
+        // "http://*/*",
+        "activeTab",
+        "tabs"
+    ],
+    "icons": {
+        "48": "images/beasts-48.png"
+    }
+}

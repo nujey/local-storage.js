@@ -1,0 +1,45 @@
+// {  
+//     "name": "我自己的二维码",  //插件的名称
+//     "version": "0.1.0", //扩展的版本
+//     "manifest_version":2, //这个是必须的，并且值为2
+//     "description": "Chrome扩展demo2",  //扩展的基本描述
+//     "browser_action": {  
+//         "default_icon": "images/icon.jpg" , //插件图标icon位置
+//         "default_title": "二维码扫描", //鼠标hover是的标题
+//         "default_popup": "popup.html" //单击图标popup出来的面板
+//     },
+//     "permissions":[
+//         "https://html.adzuki.studio/lighting/"
+//     ],
+//     "icons": {
+//         "32": "images/icon.png"
+//     }
+// }
+{
+    "version": "0.2.6",
+    "name": "self theme",
+    "manifest_version":2, //这个是必须的，并且值为2
+    "theme": {
+      "images" : {
+        "theme_frame" : "images/icon.png",
+        "theme_frame_overlay" : "images/icon.png",
+        "theme_toolbar" : "images/icon.png",
+        "theme_ntp_background" : "images/icon.png",
+        "theme_ntp_attribution" : "images/icon.png"
+      },
+      "colors" : {
+        "frame" : [255, 0, 0],
+        "toolbar" : [207, 221, 192],
+        "ntp_text" : [20, 40, 0],
+        "ntp_link" : [36, 70, 0],
+        "ntp_section" : [0, 0, 0],
+        "button_background" : [255, 0, 255]
+      },
+      "tints" : {
+        "buttons" : [0, 0.1, 0]
+      },
+      "properties" : {
+        "ntp_background_alignment" : "bottom"
+      } 
+    }
+}

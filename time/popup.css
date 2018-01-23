@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+div {
+  width: 500px;
+  height: 300px;
+  padding-left: 20px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.date {
+
+}
+.date >input {
+  width: 200px;
+}
+span {
+  color: #f00;
+}
+button {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 1px solid #000;
+}

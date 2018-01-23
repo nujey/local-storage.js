@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+.qr__span {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+img {
+  width: 100%;
+}
+div {
+  width: 500px;
+  height: 200px;
+}
+.clearfix {
+  display: block;
+  content: '';
+  clear: both;
+}
+.qr__left {
+  float: left;
+  width: 200px;
+  height: 180px;
+  padding-top: 20px;
+  text-align: center;
+}
+.qr__right {
+  float: left;
+  width: 290px;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+h1 {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.date >input {
+  width: 200px;
+}
+span {
+  color: #f00;
+}

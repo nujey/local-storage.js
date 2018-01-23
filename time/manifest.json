@@ -1,0 +1,17 @@
+{  
+    "name": "时间计数",  //插件的名称
+    "version": "0.1.0", //扩展的版本
+    "manifest_version":2, //这个是必须的，并且值为2
+    "description": "Chrome扩展demo",  //扩展的基本描述
+    "browser_action": {  
+        "default_icon": "images/icon.jpg" , //插件图标icon位置
+        "default_title": "时间计数器", //鼠标hover是的标题
+        "default_popup": "popup.html" //单击图标popup出来的面板
+    },
+    "permissions":[
+        "http://*/*"
+    ],
+    "icons": {
+        "32": "images/icon.png"
+    }
+}
