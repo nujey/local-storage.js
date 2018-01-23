@@ -1,8 +1,5 @@
-/**
- * @file 封装localStorage
- */
-
-const localStorage = global.localStorage
+console.log(window)
+const localStorage = window.localStorage
 
 export default {
   /**
@@ -50,7 +47,7 @@ export default {
    * 清空所有值
    * @returns {Promise} Promise实例
    */
-  clear() {
+  clearAll() {
     return new Promise((resolve) => {
       localStorage.clear()
       resolve()
